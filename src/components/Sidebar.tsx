@@ -10,7 +10,7 @@ const Sidebar = () => {
   if (!isMenuOpen) return null;
 
   return (
-    <div className="col-span-1 shadow-lg px-6 py-6">
+    <div className="w-72 shadow-lg px-6 py-6">
       <ul className="px-4">
         <li className="flex pt-4 items-center">
           <AiFillHome className="w-6" />

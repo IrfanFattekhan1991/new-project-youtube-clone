@@ -29,3 +29,7 @@ export const buttonList = [
   "Study",
   "Romatic",
 ];
+const API_KEY = "AIzaSyAqu3kCBDKp_oGqXwD6apqOqjkUG07oBHI";
+export const YOUTUBE_API =
+  "https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=" +
+  API_KEY;
