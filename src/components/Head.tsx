@@ -1,6 +1,7 @@
 import { MENU_ICON, USER_ICON, YOUTUBE_ICON } from "../Utils/constants";
 import { useDispatch } from "react-redux/es/exports";
 import { toggleMenu } from "../Utils/appSlice";
+import { Link } from "react-router-dom";
 
 const Head = () => {
   const dispatch = useDispatch();
@@ -13,6 +14,7 @@ const Head = () => {
           src={MENU_ICON}
           onClick={() => dispatch(toggleMenu())}
         />
+
         <img className="h-12 px-8" alt="youtube-icon" src={YOUTUBE_ICON} />
       </div>
       <div className="col-span-10 px-96">

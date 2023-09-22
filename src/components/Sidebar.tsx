@@ -3,6 +3,7 @@ import { MdOutlineSubscriptions } from "react-icons/md";
 import { SHORTS_ICON } from "../Utils/constants";
 import { useSelector } from "react-redux/es/hooks/useSelector";
 import { RootState } from "../Utils/store";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   const isMenuOpen = useSelector((store: RootState) => store.app.isMenuOpen);
@@ -12,10 +13,12 @@ const Sidebar = () => {
   return (
     <div className="w-72 shadow-lg px-6 py-6">
       <ul className="px-4">
-        <li className="flex pt-4 items-center">
-          <AiFillHome className="w-6" />
-          <h4 className="pl-6">Home</h4>
-        </li>
+        <Link to="/">
+          <li className="flex pt-4 items-center">
+            <AiFillHome className="w-6" />
+            <h4 className="pl-6">Home</h4>
+          </li>
+        </Link>
         <li className="flex pt-4 items-center">
           <img className="w-6" alt="shorts-icon" src={SHORTS_ICON} />
           <h4 className="pl-6">Shorts</h4>

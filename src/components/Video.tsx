@@ -1,6 +1,5 @@
 export interface VideoProps {
   videoInfo: any;
-  key: any;
 }
 
 const Video = ({ videoInfo }: VideoProps) => {
