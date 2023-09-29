@@ -36,6 +36,27 @@ const Sidebar = () => {
         <li className="pt-4 pb-4">Liked Videos</li>
       </ul>
       <hr />
+      <ul className="px-4">
+        <li className="pt-4">Library</li>
+        <li className="pt-4">History</li>
+        <li className="pt-4">Watch Later</li>
+        <li className="pt-4 pb-4">Liked Videos</li>
+      </ul>
+      <hr />
+      <ul className="px-4">
+        <li className="pt-4">Library</li>
+        <li className="pt-4">History</li>
+        <li className="pt-4">Watch Later</li>
+        <li className="pt-4 pb-4">Liked Videos</li>
+      </ul>
+      <hr />
+      <ul className="px-4">
+        <li className="pt-4">Library</li>
+        <li className="pt-4">History</li>
+        <li className="pt-4">Watch Later</li>
+        <li className="pt-4 pb-4">Liked Videos</li>
+      </ul>
+      <hr />
     </div>
   );
 };

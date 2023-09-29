@@ -1,5 +1,8 @@
 const apiKey = process.env.React_App_API_KEY;
 
+export const YOUTUBE_SEARCH_API =
+  "http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=";
+
 export const MENU_ICON =
   "https://cdn4.iconfinder.com/data/icons/navigation-40/24/hamburger-menu-512.png";
 
