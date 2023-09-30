@@ -130,7 +130,7 @@ const commentsData: CommentType[] = [
 
 const CommentsContainer = () => {
   return (
-    <div className="m-5 p-2 w-[80rem]">
+    <div className="p-2 w-[76rem]">
       <h1 className="font-bold text-2xl">Comments : </h1>
       <CommentsList comments={commentsData} />
     </div>

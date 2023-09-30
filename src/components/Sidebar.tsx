@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   const isMenuOpen = useSelector((store: RootState) => store.app.isMenuOpen);
 
-  if (!isMenuOpen) return null;
+  if (isMenuOpen) return null;
 
   return (
     <div className="w-72 shadow-lg px-6 py-6">
